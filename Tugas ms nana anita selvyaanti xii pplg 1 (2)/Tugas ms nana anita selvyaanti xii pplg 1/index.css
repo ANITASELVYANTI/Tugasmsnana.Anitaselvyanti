@@ -1,0 +1,60 @@
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.judulForm {
+    color: blue;
+    text-align: center;
+}
+
+.addButton {
+    padding: 5px 10px;
+    background-color: green;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #999;
+}
+
+table th {
+    background-color: blue;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 10px;
+}
+
+.editButton {
+    padding: 5px 10px;
+    background-color: orange;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+}
+
+.deleteButton {
+    padding: 5px 10px;
+    background-color: red;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+}
+
+.inputNama, .inputEkskul, .inputJurusan {
+    width: 500px;
+    height: 30px;
+
+}
+
+.formUtama div {
+    margin-bottom: 20px;
+}
